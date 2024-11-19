@@ -1,0 +1,30 @@
+name = "my-app"
+main = "src/index.ts"
+compatibility_date = "2024-11-11"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+# MY_VAR = "my-variable"
+DIRECT_URL = "postgresql://neondb_owner:CBdcJDz7omX2@ep-green-salad-a5tyf6r6.us-east-2.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYmZiOGNiZWUtZmQxZi00M2ViLWExNzItNTU3ZDA4YmZiYTk0IiwidGVuYW50X2lkIjoiYzA3YThhOGEwYTc2YjZkMDU0ZjFjMzQ4OWMzZTAxMTBmZTcxN2NlOWQ5YjM0YWY1MDA3ZTlkNDQ2ODU2MDIxMiIsImludGVybmFsX3NlY3JldCI6ImZjNjc5ZGQzLTY2Y2EtNDJmNC04ZmIzLTZkNjljYjY3MWJlMyJ9.9D8R_nJLXTOpdW1dCk5CensipP0WBdh8TVHgsq8ASgo"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
